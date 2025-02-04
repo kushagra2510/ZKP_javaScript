@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Knowledge Proof (ZKP) Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="zkp-container">
+        <h1>Zero Knowledge Proof Demo</h1>
+        <p>Prove you know the square root of a number without revealing it.</p>
+        
+        <label for="secretNumber">Enter a Secret Number (You will prove you know its square root):</label>
+        <input type="number" id="secretNumber" min="1" placeholder="Choose a secret number">
+        
+        <button id="proveBtn" disabled>Prove Knowledge</button>
+        
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
